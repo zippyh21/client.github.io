@@ -10,7 +10,7 @@
         <script>
             //const Html5WebSocket = require("html5-websocket");
             //const ReconnectingWebSocket = require("reconnecting-websocket");
-            const ws = new WebSocket("ws://:8083");
+            const ws = new WebSocket("ws://localhost:8083");
 
             ws.addEventListener("open", () => {
                 console.log("We are connected!");
